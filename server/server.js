@@ -9,6 +9,14 @@ app.use(bodyParser.urlencoded({extended:true}))
 // Serve up static files (HTML, CSS, Client JS)
 app.use(express.static('server/public'));
 
+
+const numbersArray = [
+  {
+    playerOne: 1,
+    playerTwo: 2,
+  }
+]
+
 // GET & POST Routes go here
 
 
